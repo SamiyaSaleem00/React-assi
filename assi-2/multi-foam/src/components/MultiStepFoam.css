@@ -1,0 +1,91 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #80767c; */
+  background-image: url(https://img.pikbest.com/wp/202408/synthetic-detailed-texture-of-plastic-on-foam-board-background_9911773.jpg!w700wp);
+}
+
+.form-box {
+  background: rgb(174, 162, 177);
+  width: 350px;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+.progress {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.circle.active {
+  background: #626668;
+  color: white;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back {
+  background: #456a6d;
+  color: white;
+}
+
+.next {
+  background: #b86ec2fb;
+  color: white;
+}
+
+.submit {
+  background: #34965b;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
